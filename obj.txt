@@ -1,0 +1,16 @@
+var student {
+    name : xyz
+    email : xyz@gmail.com
+    phone: 111111111
+    roll  : 22
+}
+console.log(student.name) ---------->  print student name 
+console.log(student.email) ---------->  print student email
+console.log(student.phone) ---------->  print student phone
+console.log(student.roll) ---------->  print student roll no
+
+
+
+
+
+
