@@ -1,0 +1,122 @@
+code for question no-1
+__________________________________________________________________________________________________________________________
+
+
+let arr = [
+    {
+        country : "srilanka",
+        continent : "asia"
+    },
+     {
+        country : "australia",
+        continent : "australia"
+    },
+     {
+        country : "jamaica",
+        continent : "westindies"
+    },
+    {
+        country : "india",
+        continent : "asia"
+    },
+     {
+        country : "pakistan",
+        continent : "asia"
+    },
+     {
+        country : "england",
+        continent : "uk"
+    },
+     {
+        country : "bangladesh",
+        continent : "asia"
+    },
+     {
+        country : "newzealand",
+        continent : "newzealand"
+    },
+    ]
+    let arr1 = arr.filter((countrydetails)=>{
+        return countrydetails.continent == "asia"
+    })
+    console.log(arr1)
+
+
+
+code for question no-2
+__________________________________________________________________________________________________________________________
+
+
+let arr = [
+    {
+        country : "australia",
+        population : 250000
+    },
+    {
+        country : "england",
+        population : 20000
+    },
+    {
+        country : "india",
+        population : 1250000000
+    },
+    {
+        country : "south africa",
+        population : 2000
+    },
+    {
+        country : "newzealand",
+        population : 25000
+    },
+    ]
+    let arr1 = arr.filter((countrydetails)=>{
+        return countrydetails.population<200000
+    })
+    console.log(arr1)
+
+
+
+code for question no-3
+__________________________________________________________________________________________________________________________
+
+
+
+
+    let arr = [
+    {
+        country : "srilanka",
+        capital : "colombo",
+        flag : "blue colour with a sword logo"
+        
+    },
+     {
+        country : "india",
+        capital : "delhi",
+        flag : "tricolour(orange,white,green)"
+        
+    },
+     
+     {
+        country : "australia",
+        capital : "canbara",
+        flag : "blue colour"
+        
+    },
+    {
+        country : "pakistan",
+        capital : "islamabad",
+        flag : "green colour with star"
+        
+    },
+      {
+        country : "bangladesh",
+        capital : "dhaka",
+        flag : "green colour with a big dot"
+        
+    }
+    ]
+    arr.forEach((countrydetails)=>{
+         console.log(arr)
+        
+    })
+    
